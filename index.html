@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" http-equiv="X-UA-Compatible" content="Milk Bill Calculator">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Milk Bill</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="website icon" type="png" href="logo.png">
+    <link rel="stylesheet" href="milkcss.css">
+    <script src="milkjs.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row hd">
+            <h2>Daily Milk Bill Calculator</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+               <input type="number" class="form-control" id="ans">
+            </div>
+            <div class="col-sm-2">
+                <input type="reset" id="clr" class="form-control" value="clear" onclick="document.getElementById('ans').value=''">
+            </div>
+        </div>
+        <form >
+            <div class="row">
+                <div class="col-sm-4">
+                  Milk Big: <input type="number" id="mb" class="form-control">  
+                </div>
+                <div class="col-sm-4">
+                    Milk Medium: <input type="number" id="mm" class="form-control">
+                </div>
+                <div class="col-sm-4">
+                    Milk Small : <input type="number" id="ms" class="form-control">
+                </div>
+            </div>
+            <div class="row">                
+                <div class="col-sm-6">
+                    Curd Big: <input type="number" id="cb" class="form-control">
+
+                </div>
+                <div class="col-sm-6">          
+                    Curd Small: <input type="number" id="cs" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    Butter Milk: <input type="number" id="bm" class="form-control">
+                </div>
+                <div class="col-sm-6    ">
+                    Orange Juice: <input type="number" id="oj" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    Lassi Packet: <input type="number" id="lp" class="form-control">
+                </div>
+                <div class="col-sm-6">
+                    Lassi Glass: <input type="number" id="lg" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col bttn">
+                    <input type="button" value="Get Bill" class="btn btn-success " onclick="solving()">
+                </div>
+            </div>
+        </form>
+    </div>
+    
+
+</body>
+</html>
