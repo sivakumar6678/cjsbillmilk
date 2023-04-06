@@ -30,7 +30,7 @@ function solving()
 					bm=bm*32;
                     og=og*45;
 					lsp=lsp*53;
-                    lsg=lsg*53;
+                    lsg=lsg*16;
 					var anser = (mb+ms+mm+cb+cs+bm+lsp+lsg+og);
 					document.getElementById("ans").value=anser;
 					}
