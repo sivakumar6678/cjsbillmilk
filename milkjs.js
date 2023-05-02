@@ -22,10 +22,10 @@ function solving()
                     else if(lsp==""){lsp=0;}
                     else if(lsg==""){lsg=0;}
                     else{alert("ok");}
-					mb=mb*65;
+					mb=mb*67;
 					ms=ms*43;
 					mm=mm*62;
-					cb=cb*64;
+					cb=cb*68;
 					cs=cs*43;
 					bm=bm*32;
                     og=og*45;
