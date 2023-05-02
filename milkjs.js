@@ -35,7 +35,3 @@ function solving()
 					document.getElementById("ans").value=anser;
 					document.getElementById("ans1").value=anser;
 					}
-					stylee()
-					{
-						document.getElementById("ans1").style.color=red;
-					}
