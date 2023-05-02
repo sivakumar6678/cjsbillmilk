@@ -18,13 +18,13 @@
         <div class="row">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
-               <input type="number" class="form-control" id="ans">
+               <input type="number" class="form-control" id="ans"><br><center><input type="number"  id="ans1"></center>
             </div>
             <div class="col-sm-2">
                 <input type="reset" id="clr" class="form-control" value="clear" onclick="document.getElementById('ans').value=''">
             </div>
         </div>
-        <form >
+        <form onsubmit="stylee()"></form>
             <div class="row">
                 <div class="col-sm-4">
                   Milk Big: <input type="number" id="mb" class="form-control">  
@@ -63,7 +63,7 @@
             </div>
             <div class="row">
                 <div class="col bttn">
-                    <input type="button" value="Get Bill" class="btn btn-success " onclick="solving()">
+                    <input type="button" id="cl" value="Get Bill" class="btn btn-success " onclick="solving()">
                 </div>
             </div>
         </form>

@@ -33,4 +33,9 @@ function solving()
                     lsg=lsg*16;
 					var anser = (mb+ms+mm+cb+cs+bm+lsp+lsg+og);
 					document.getElementById("ans").value=anser;
+					document.getElementById("ans1").value=anser;
+					}
+					stylee()
+					{
+						document.getElementById("ans1").style.color=red;
 					}
