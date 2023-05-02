@@ -57,6 +57,9 @@ form{
     border:2px solid blue;
     box-shadow: 0px 0px 5px 1px blue;
 }
+.btn:hover{
+    color:red;
+}
 #clr{
     height: 100%;
     background-color: rgba(222, 107, 193, 0.703);
@@ -75,11 +78,22 @@ form{
         transform:scale(1);
     }
 }
+span{
+    position:relative;
+    top: 10;
+    left: 0;
+    width:100%;
+    height:100%;
+   font-size: xx-large;
+    background:#00ff0d;
+    
+    /* */
+}
 #ans1{
-
+    position: relative;
     animation: animate 1s linear  infinite;
     align-self:center;
-    width: 70px;
+    width: 100px;
     height:50px;
     border: 3px solid rgb(38, 0, 255);
     border-radius: 5px;
@@ -90,18 +104,23 @@ form{
 }
 #ans1::before{
     content:'';
-    position:absolute;
-    width: 100%;
-    height:100%;
-    background-color: rgb(13, 0, 255);
-    border:20px greenyellow;
-    box-shadow: 1px 1px 20px 20px rgb(9, 255, 0);
+	position:absolute;
+	width:100%;
+	height:100%;
+	top: 0;
+    left: 0;
+    background:linear-gradient(rgb(63, 251, 6),aqua,yellow,rgb(255, 0, 217),rgb(105, 245, 12),red);
+    transform: skewX(4deg) skewY(4deg);
 }
 #ans1::after{
     content:'';
-    position:absolute;
-    width: 100%;
-    height:100%;
-    background-color: yellow;
-    box-shadow: 1px 1px 20px 20px yellow;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top: 0;
+    left:0;
+    background:linear-gradient(rgb(63, 251, 6),aqua,yellow,rgb(255, 0, 217),rgb(105, 245, 12),red);
+    filter:blur(25px);
+    /* z-index: -1; */
+    /* transform: skewX(4deg) skewY(4deg);  */
 }
