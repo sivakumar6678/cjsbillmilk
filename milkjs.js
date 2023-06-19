@@ -9,13 +9,8 @@ function solving()
                     var og  = document.getElementById("oj").value;
 					var lsp = document.getElementById("lp").value;
                     var lsg = document.getElementById("lg").value;
-					var pree=document.getElementById("pre").value;
-
-					
-					if(mb==" ")
-                    {
-                        mb=0;
-                    }
+					var pree= document.getElementById("pre").value;
+					if(mb==" ") { mb=0; }
                     else if(ms==""){ms=0;}
                     else if(mm==""){mm=0;}
                     else if(cb==""){cb=0;}
@@ -33,7 +28,7 @@ function solving()
 					cs=cs*43;
 					bm=bm*32;
                     og=og*45;
-					lsp=lsp*53;
+					lsp=lsp*45;
                     lsg=lsg*16;
 					pree=pree*1;
 					var anser = (mb+ms+mm+cb+cs+bm+lsp+lsg+og+pree);
